@@ -11,7 +11,6 @@
 [Dd]ebug/
 [Rr]elease/
 x64/
-[Bb]in/
 [Oo]bj/
 
 # MSTest test Results
@@ -51,6 +50,9 @@ ipch/
 *.opensdf
 *.sdf
 *.cachefile
+
+# Visual studio
+.vs/
 
 # Visual Studio profiler
 *.psess
