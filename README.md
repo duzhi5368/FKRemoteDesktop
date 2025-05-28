@@ -1,5 +1,7 @@
 `FKRemoteDesktop` is a remote control tool for Windows that can be compiled into a binary Payload and wrapped with other Shellcode Loaders. It consists of two components: a server and a client. The client operates in stealth mode, while the server provides centralized control.
 
+![a](./Resources/Screenshot/1.png)
+
 ## Features
 
 ### Client Disguise and Anti-Detection

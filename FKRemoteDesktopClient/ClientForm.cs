@@ -33,6 +33,8 @@ namespace FKRemoteDesktop
         {
 #if DEBUG
             InitializeComponent();
+            Logger.OnLog += AddLog; // 订阅 Logger 事件
+            _messageProcessors = new List<IMessageProcessor>();
             this.Visible = true;     // 客户端可见模式
 #else
             this.Visible = false;
@@ -40,10 +42,9 @@ namespace FKRemoteDesktop
             this.Opacity = 0;
             this.FormBorderStyle = FormBorderStyle.None;
             this.WindowState = FormWindowState.Minimized;
-#endif
-
             Logger.OnLog += AddLog; // 订阅 Logger 事件
             _messageProcessors = new List<IMessageProcessor>();
+#endif
         }
 
         private bool IsInstallationRequired()
