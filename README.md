@@ -238,4 +238,4 @@
 - XorBasicTemplate 20/72(仅XOR加密) （Symentec，McAfee，卡巴，火绒）
 - FindText 17/72(自定义加密)（Symentec，McAfee）
 
-
+[![Star History Chart](https://api.star-history.com/svg?repos=duzhi5368/FKRemoteDesktop&type=Date)](https://star-history.com/#duzhi5368/FKRemoteDesktop&Date)
