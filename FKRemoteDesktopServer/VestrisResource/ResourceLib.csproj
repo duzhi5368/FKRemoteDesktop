@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>net20;net35;net40;net45;netstandard2.0</TargetFrameworks>
+
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <GeneratePackageOnBuild Condition="'$(APPVEYOR)' != '' And '$(APPVEYOR)'">true</GeneratePackageOnBuild>
+
+    <PackageId>Vestris.ResourceLib</PackageId>
+    <PackageProjectUrl>https://github.com/resourcelib/resourcelib</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/resourcelib/resourcelib/blob/master/LICENSE</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/resourcelib/resourcelib</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <Description>C# File Resource Management Library</Description>
+    <Copyright>Copyright 2016-2017</Copyright>
+    <PackageTags>Resource Win32</PackageTags>
+    <PackageIconUrl>https://avatars0.githubusercontent.com/u/27870198?s=64</PackageIconUrl>
+    <Authors>dblock, icnocop, thoemmi</Authors>
+    <AssemblyName>Vestris.ResourceLib</AssemblyName>
+    <RootNamespace>Vestris.ResourceLib</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.0'">
+    <PackageReference Include="System.Drawing.Common">
+      <Version>4.5.0</Version>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="GitVersionTask" Version="4.0.0-beta0012">
+      <PrivateAssets>All</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
+</Project>

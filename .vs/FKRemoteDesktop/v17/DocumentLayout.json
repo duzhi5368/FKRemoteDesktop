@@ -1,0 +1,400 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Github\\OtherProjects\\FKRemoteDesktop\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{59EDE693-E651-4A4B-B235-672613173B18}|FKRemoteDesktopClient\\FKRemoteDesktopClient.csproj|d:\\github\\otherprojects\\fkremotedesktop\\fkremotedesktopclient\\helpers\\processhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59EDE693-E651-4A4B-B235-672613173B18}|FKRemoteDesktopClient\\FKRemoteDesktopClient.csproj|solutionrelative:fkremotedesktopclient\\helpers\\processhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59EDE693-E651-4A4B-B235-672613173B18}|FKRemoteDesktopClient\\FKRemoteDesktopClient.csproj|d:\\github\\otherprojects\\fkremotedesktop\\fkremotedesktopclient\\clientform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59EDE693-E651-4A4B-B235-672613173B18}|FKRemoteDesktopClient\\FKRemoteDesktopClient.csproj|solutionrelative:fkremotedesktopclient\\clientform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|FKRemoteDesktopServer||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0442816-C839-4FC4-891A-246B4A0D0773}|FKRemoteDesktopServer\\FKRemoteDesktopServer.csproj|d:\\github\\otherprojects\\fkremotedesktop\\fkremotedesktopserver\\builder\\clientbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0442816-C839-4FC4-891A-246B4A0D0773}|FKRemoteDesktopServer\\FKRemoteDesktopServer.csproj|solutionrelative:fkremotedesktopserver\\builder\\clientbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59EDE693-E651-4A4B-B235-672613173B18}|FKRemoteDesktopClient\\FKRemoteDesktopClient.csproj|d:\\github\\otherprojects\\fkremotedesktop\\fkremotedesktopclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59EDE693-E651-4A4B-B235-672613173B18}|FKRemoteDesktopClient\\FKRemoteDesktopClient.csproj|solutionrelative:fkremotedesktopclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59EDE693-E651-4A4B-B235-672613173B18}|FKRemoteDesktopClient\\FKRemoteDesktopClient.csproj|d:\\github\\otherprojects\\fkremotedesktop\\fkremotedesktopclient\\clientform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{59EDE693-E651-4A4B-B235-672613173B18}|FKRemoteDesktopClient\\FKRemoteDesktopClient.csproj|solutionrelative:fkremotedesktopclient\\clientform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59EDE693-E651-4A4B-B235-672613173B18}|FKRemoteDesktopClient\\FKRemoteDesktopClient.csproj|d:\\github\\otherprojects\\fkremotedesktop\\fkremotedesktopclient\\clientform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59EDE693-E651-4A4B-B235-672613173B18}|FKRemoteDesktopClient\\FKRemoteDesktopClient.csproj|solutionrelative:fkremotedesktopclient\\clientform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59EDE693-E651-4A4B-B235-672613173B18}|FKRemoteDesktopClient\\FKRemoteDesktopClient.csproj|d:\\github\\otherprojects\\fkremotedesktop\\fkremotedesktopclient\\configs\\settingsfromserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59EDE693-E651-4A4B-B235-672613173B18}|FKRemoteDesktopClient\\FKRemoteDesktopClient.csproj|solutionrelative:fkremotedesktopclient\\configs\\settingsfromserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0442816-C839-4FC4-891A-246B4A0D0773}|FKRemoteDesktopServer\\FKRemoteDesktopServer.csproj|d:\\github\\otherprojects\\fkremotedesktop\\fkremotedesktopserver\\framework\\fkserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0442816-C839-4FC4-891A-246B4A0D0773}|FKRemoteDesktopServer\\FKRemoteDesktopServer.csproj|solutionrelative:fkremotedesktopserver\\framework\\fkserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0442816-C839-4FC4-891A-246B4A0D0773}|FKRemoteDesktopServer\\FKRemoteDesktopServer.csproj|d:\\github\\otherprojects\\fkremotedesktop\\fkremotedesktopserver\\opennat\\utils\\extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0442816-C839-4FC4-891A-246B4A0D0773}|FKRemoteDesktopServer\\FKRemoteDesktopServer.csproj|solutionrelative:fkremotedesktopserver\\opennat\\utils\\extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59EDE693-E651-4A4B-B235-672613173B18}|FKRemoteDesktopClient\\FKRemoteDesktopClient.csproj|d:\\github\\otherprojects\\fkremotedesktop\\fkremotedesktopclient\\network\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59EDE693-E651-4A4B-B235-672613173B18}|FKRemoteDesktopClient\\FKRemoteDesktopClient.csproj|solutionrelative:fkremotedesktopclient\\network\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59EDE693-E651-4A4B-B235-672613173B18}|FKRemoteDesktopClient\\FKRemoteDesktopClient.csproj|d:\\github\\otherprojects\\fkremotedesktop\\fkremotedesktopclient\\protobuf\\compiler\\compilercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59EDE693-E651-4A4B-B235-672613173B18}|FKRemoteDesktopClient\\FKRemoteDesktopClient.csproj|solutionrelative:fkremotedesktopclient\\protobuf\\compiler\\compilercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59EDE693-E651-4A4B-B235-672613173B18}|FKRemoteDesktopClient\\FKRemoteDesktopClient.csproj|d:\\github\\otherprojects\\fkremotedesktop\\fkremotedesktopclient\\cryptography\\aesgcm256.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59EDE693-E651-4A4B-B235-672613173B18}|FKRemoteDesktopClient\\FKRemoteDesktopClient.csproj|solutionrelative:fkremotedesktopclient\\cryptography\\aesgcm256.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59EDE693-E651-4A4B-B235-672613173B18}|FKRemoteDesktopClient\\FKRemoteDesktopClient.csproj|d:\\github\\otherprojects\\fkremotedesktop\\fkremotedesktopclient\\stealer\\apps\\winscppasswordreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59EDE693-E651-4A4B-B235-672613173B18}|FKRemoteDesktopClient\\FKRemoteDesktopClient.csproj|solutionrelative:fkremotedesktopclient\\stealer\\apps\\winscppasswordreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59EDE693-E651-4A4B-B235-672613173B18}|FKRemoteDesktopClient\\FKRemoteDesktopClient.csproj|d:\\github\\otherprojects\\fkremotedesktop\\fkremotedesktopclient\\stealer\\browsers\\internetexplorerpasswordreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59EDE693-E651-4A4B-B235-672613173B18}|FKRemoteDesktopClient\\FKRemoteDesktopClient.csproj|solutionrelative:fkremotedesktopclient\\stealer\\browsers\\internetexplorerpasswordreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59EDE693-E651-4A4B-B235-672613173B18}|FKRemoteDesktopClient\\FKRemoteDesktopClient.csproj|d:\\github\\otherprojects\\fkremotedesktop\\fkremotedesktopclient\\stealer\\helper\\chromiumbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59EDE693-E651-4A4B-B235-672613173B18}|FKRemoteDesktopClient\\FKRemoteDesktopClient.csproj|solutionrelative:fkremotedesktopclient\\stealer\\helper\\chromiumbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59EDE693-E651-4A4B-B235-672613173B18}|FKRemoteDesktopClient\\FKRemoteDesktopClient.csproj|d:\\github\\otherprojects\\fkremotedesktop\\fkremotedesktopclient\\stealer\\helper\\chromiumdecryptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59EDE693-E651-4A4B-B235-672613173B18}|FKRemoteDesktopClient\\FKRemoteDesktopClient.csproj|solutionrelative:fkremotedesktopclient\\stealer\\helper\\chromiumdecryptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59EDE693-E651-4A4B-B235-672613173B18}|FKRemoteDesktopClient\\FKRemoteDesktopClient.csproj|d:\\github\\otherprojects\\fkremotedesktop\\fkremotedesktopclient\\stealer\\browsers\\firefoxpasswordreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59EDE693-E651-4A4B-B235-672613173B18}|FKRemoteDesktopClient\\FKRemoteDesktopClient.csproj|solutionrelative:fkremotedesktopclient\\stealer\\browsers\\firefoxpasswordreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0442816-C839-4FC4-891A-246B4A0D0773}|FKRemoteDesktopServer\\FKRemoteDesktopServer.csproj|d:\\github\\otherprojects\\fkremotedesktop\\fkremotedesktopserver\\builder\\fkshellcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0442816-C839-4FC4-891A-246B4A0D0773}|FKRemoteDesktopServer\\FKRemoteDesktopServer.csproj|solutionrelative:fkremotedesktopserver\\builder\\fkshellcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59EDE693-E651-4A4B-B235-672613173B18}|FKRemoteDesktopClient\\FKRemoteDesktopClient.csproj|d:\\github\\otherprojects\\fkremotedesktop\\fkremotedesktopclient\\helpers\\stringhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59EDE693-E651-4A4B-B235-672613173B18}|FKRemoteDesktopClient\\FKRemoteDesktopClient.csproj|solutionrelative:fkremotedesktopclient\\helpers\\stringhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0442816-C839-4FC4-891A-246B4A0D0773}|FKRemoteDesktopServer\\FKRemoteDesktopServer.csproj|D:\\Github\\OtherProjects\\FKRemoteDesktop\\fkremotedesktopserver\\configs\\serverconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0442816-C839-4FC4-891A-246B4A0D0773}|FKRemoteDesktopServer\\FKRemoteDesktopServer.csproj|solutionrelative:fkremotedesktopserver\\configs\\serverconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0442816-C839-4FC4-891A-246B4A0D0773}|FKRemoteDesktopServer\\FKRemoteDesktopServer.csproj|D:\\Github\\OtherProjects\\FKRemoteDesktop\\fkremotedesktopserver\\forms\\passwordrecoveryform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0442816-C839-4FC4-891A-246B4A0D0773}|FKRemoteDesktopServer\\FKRemoteDesktopServer.csproj|solutionrelative:fkremotedesktopserver\\forms\\passwordrecoveryform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0442816-C839-4FC4-891A-246B4A0D0773}|FKRemoteDesktopServer\\FKRemoteDesktopServer.csproj|d:\\github\\otherprojects\\fkremotedesktop\\fkremotedesktopserver\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|a54ad834-9219-4aa6-b589-607af21c3e26"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 141,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FKRemoteDesktopServer",
+              "DocumentMoniker": "D:\\Github\\OtherProjects\\FKRemoteDesktop\\FKRemoteDesktopServer\\FKRemoteDesktopServer.csproj",
+              "RelativeDocumentMoniker": "FKRemoteDesktopServer\\FKRemoteDesktopServer.csproj",
+              "ToolTip": "D:\\Github\\OtherProjects\\FKRemoteDesktop\\FKRemoteDesktopServer\\FKRemoteDesktopServer.csproj",
+              "RelativeToolTip": "FKRemoteDesktopServer\\FKRemoteDesktopServer.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-28T13:38:23.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ClientBuilder.cs",
+              "DocumentMoniker": "D:\\Github\\OtherProjects\\FKRemoteDesktop\\FKRemoteDesktopServer\\Builder\\ClientBuilder.cs",
+              "RelativeDocumentMoniker": "FKRemoteDesktopServer\\Builder\\ClientBuilder.cs",
+              "ToolTip": "D:\\Github\\OtherProjects\\FKRemoteDesktop\\FKRemoteDesktopServer\\Builder\\ClientBuilder.cs",
+              "RelativeToolTip": "FKRemoteDesktopServer\\Builder\\ClientBuilder.cs",
+              "ViewState": "AgIAAK0AAAAAAAAAAAAuwMQAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T13:37:24.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Github\\OtherProjects\\FKRemoteDesktop\\FKRemoteDesktopClient\\Program.cs",
+              "RelativeDocumentMoniker": "FKRemoteDesktopClient\\Program.cs",
+              "ToolTip": "D:\\Github\\OtherProjects\\FKRemoteDesktop\\FKRemoteDesktopClient\\Program.cs",
+              "RelativeToolTip": "FKRemoteDesktopClient\\Program.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAACUAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T13:17:58.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Extensions.cs",
+              "DocumentMoniker": "D:\\Github\\OtherProjects\\FKRemoteDesktop\\FKRemoteDesktopServer\\OpenNAT\\Utils\\Extensions.cs",
+              "RelativeDocumentMoniker": "FKRemoteDesktopServer\\OpenNAT\\Utils\\Extensions.cs",
+              "ToolTip": "D:\\Github\\OtherProjects\\FKRemoteDesktop\\FKRemoteDesktopServer\\OpenNAT\\Utils\\Extensions.cs",
+              "RelativeToolTip": "FKRemoteDesktopServer\\OpenNAT\\Utils\\Extensions.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAEwGkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T12:52:19.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FKServer.cs",
+              "DocumentMoniker": "D:\\Github\\OtherProjects\\FKRemoteDesktop\\FKRemoteDesktopServer\\Framework\\FKServer.cs",
+              "RelativeDocumentMoniker": "FKRemoteDesktopServer\\Framework\\FKServer.cs",
+              "ToolTip": "D:\\Github\\OtherProjects\\FKRemoteDesktop\\FKRemoteDesktopServer\\Framework\\FKServer.cs",
+              "RelativeToolTip": "FKRemoteDesktopServer\\Framework\\FKServer.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAEwG0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T12:52:10.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CompilerContext.cs",
+              "DocumentMoniker": "D:\\Github\\OtherProjects\\FKRemoteDesktop\\FKRemoteDesktopClient\\Protobuf\\Compiler\\CompilerContext.cs",
+              "RelativeDocumentMoniker": "FKRemoteDesktopClient\\Protobuf\\Compiler\\CompilerContext.cs",
+              "ToolTip": "D:\\Github\\OtherProjects\\FKRemoteDesktop\\FKRemoteDesktopClient\\Protobuf\\Compiler\\CompilerContext.cs",
+              "RelativeToolTip": "FKRemoteDesktopClient\\Protobuf\\Compiler\\CompilerContext.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAEwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T12:52:03.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Client.cs",
+              "DocumentMoniker": "D:\\Github\\OtherProjects\\FKRemoteDesktop\\FKRemoteDesktopClient\\Network\\Client.cs",
+              "RelativeDocumentMoniker": "FKRemoteDesktopClient\\Network\\Client.cs",
+              "ToolTip": "D:\\Github\\OtherProjects\\FKRemoteDesktop\\FKRemoteDesktopClient\\Network\\Client.cs",
+              "RelativeToolTip": "FKRemoteDesktopClient\\Network\\Client.cs",
+              "ViewState": "AgIAAL4AAAAAAAAAAAAEwMgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T12:48:28.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SettingsFromServer.cs",
+              "DocumentMoniker": "D:\\Github\\OtherProjects\\FKRemoteDesktop\\FKRemoteDesktopClient\\Configs\\SettingsFromServer.cs",
+              "RelativeDocumentMoniker": "FKRemoteDesktopClient\\Configs\\SettingsFromServer.cs",
+              "ToolTip": "D:\\Github\\OtherProjects\\FKRemoteDesktop\\FKRemoteDesktopClient\\Configs\\SettingsFromServer.cs",
+              "RelativeToolTip": "FKRemoteDesktopClient\\Configs\\SettingsFromServer.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAUwDIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T12:48:22.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AesGcm256.cs",
+              "DocumentMoniker": "D:\\Github\\OtherProjects\\FKRemoteDesktop\\FKRemoteDesktopClient\\Cryptography\\AesGcm256.cs",
+              "RelativeDocumentMoniker": "FKRemoteDesktopClient\\Cryptography\\AesGcm256.cs",
+              "ToolTip": "D:\\Github\\OtherProjects\\FKRemoteDesktop\\FKRemoteDesktopClient\\Cryptography\\AesGcm256.cs",
+              "RelativeToolTip": "FKRemoteDesktopClient\\Cryptography\\AesGcm256.cs",
+              "ViewState": "AgIAAHwTAAAAAAAAAAAiwIkTAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T12:48:39.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "WinScpPasswordReader.cs",
+              "DocumentMoniker": "D:\\Github\\OtherProjects\\FKRemoteDesktop\\FKRemoteDesktopClient\\Stealer\\Apps\\WinScpPasswordReader.cs",
+              "RelativeDocumentMoniker": "FKRemoteDesktopClient\\Stealer\\Apps\\WinScpPasswordReader.cs",
+              "ToolTip": "D:\\Github\\OtherProjects\\FKRemoteDesktop\\FKRemoteDesktopClient\\Stealer\\Apps\\WinScpPasswordReader.cs",
+              "RelativeToolTip": "FKRemoteDesktopClient\\Stealer\\Apps\\WinScpPasswordReader.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T12:15:17.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "InternetExplorerPasswordReader.cs",
+              "DocumentMoniker": "D:\\Github\\OtherProjects\\FKRemoteDesktop\\FKRemoteDesktopClient\\Stealer\\Browsers\\InternetExplorerPasswordReader.cs",
+              "RelativeDocumentMoniker": "FKRemoteDesktopClient\\Stealer\\Browsers\\InternetExplorerPasswordReader.cs",
+              "ToolTip": "D:\\Github\\OtherProjects\\FKRemoteDesktop\\FKRemoteDesktopClient\\Stealer\\Browsers\\InternetExplorerPasswordReader.cs",
+              "RelativeToolTip": "FKRemoteDesktopClient\\Stealer\\Browsers\\InternetExplorerPasswordReader.cs",
+              "ViewState": "AgIAAJsAAAAAAAAAAADwv6oAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T11:02:27.484Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 230,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProcessHelper.cs",
+              "DocumentMoniker": "D:\\Github\\OtherProjects\\FKRemoteDesktop\\FKRemoteDesktopClient\\Helpers\\ProcessHelper.cs",
+              "RelativeDocumentMoniker": "FKRemoteDesktopClient\\Helpers\\ProcessHelper.cs",
+              "ToolTip": "D:\\Github\\OtherProjects\\FKRemoteDesktop\\FKRemoteDesktopClient\\Helpers\\ProcessHelper.cs",
+              "RelativeToolTip": "FKRemoteDesktopClient\\Helpers\\ProcessHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T13:45:14.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ClientForm.Designer.cs",
+              "DocumentMoniker": "D:\\Github\\OtherProjects\\FKRemoteDesktop\\FKRemoteDesktopClient\\ClientForm.Designer.cs",
+              "RelativeDocumentMoniker": "FKRemoteDesktopClient\\ClientForm.Designer.cs",
+              "ToolTip": "D:\\Github\\OtherProjects\\FKRemoteDesktop\\FKRemoteDesktopClient\\ClientForm.Designer.cs",
+              "RelativeToolTip": "FKRemoteDesktopClient\\ClientForm.Designer.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB4AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T13:06:48.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ClientForm.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "D:\\Github\\OtherProjects\\FKRemoteDesktop\\FKRemoteDesktopClient\\ClientForm.cs",
+              "RelativeDocumentMoniker": "FKRemoteDesktopClient\\ClientForm.cs",
+              "ToolTip": "D:\\Github\\OtherProjects\\FKRemoteDesktop\\FKRemoteDesktopClient\\ClientForm.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "FKRemoteDesktopClient\\ClientForm.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T12:59:04.978Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClientForm.cs",
+              "DocumentMoniker": "D:\\Github\\OtherProjects\\FKRemoteDesktop\\FKRemoteDesktopClient\\ClientForm.cs",
+              "RelativeDocumentMoniker": "FKRemoteDesktopClient\\ClientForm.cs",
+              "ToolTip": "D:\\Github\\OtherProjects\\FKRemoteDesktop\\FKRemoteDesktopClient\\ClientForm.cs",
+              "RelativeToolTip": "FKRemoteDesktopClient\\ClientForm.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAmwB0AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T12:51:09.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "FirefoxPasswordReader.cs",
+              "DocumentMoniker": "D:\\Github\\OtherProjects\\FKRemoteDesktop\\FKRemoteDesktopClient\\Stealer\\Browsers\\FirefoxPasswordReader.cs",
+              "RelativeDocumentMoniker": "FKRemoteDesktopClient\\Stealer\\Browsers\\FirefoxPasswordReader.cs",
+              "ToolTip": "D:\\Github\\OtherProjects\\FKRemoteDesktop\\FKRemoteDesktopClient\\Stealer\\Browsers\\FirefoxPasswordReader.cs",
+              "RelativeToolTip": "FKRemoteDesktopClient\\Stealer\\Browsers\\FirefoxPasswordReader.cs",
+              "ViewState": "AgIAAK0AAAAAAAAAAAASwLAAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T10:51:59.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "StringHelper.cs",
+              "DocumentMoniker": "D:\\Github\\OtherProjects\\FKRemoteDesktop\\FKRemoteDesktopClient\\Helpers\\StringHelper.cs",
+              "RelativeDocumentMoniker": "FKRemoteDesktopClient\\Helpers\\StringHelper.cs",
+              "ToolTip": "D:\\Github\\OtherProjects\\FKRemoteDesktop\\FKRemoteDesktopClient\\Helpers\\StringHelper.cs",
+              "RelativeToolTip": "FKRemoteDesktopClient\\Helpers\\StringHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T09:42:26.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ChromiumBase.cs",
+              "DocumentMoniker": "D:\\Github\\OtherProjects\\FKRemoteDesktop\\FKRemoteDesktopClient\\Stealer\\Helper\\ChromiumBase.cs",
+              "RelativeDocumentMoniker": "FKRemoteDesktopClient\\Stealer\\Helper\\ChromiumBase.cs",
+              "ToolTip": "D:\\Github\\OtherProjects\\FKRemoteDesktop\\FKRemoteDesktopClient\\Stealer\\Helper\\ChromiumBase.cs",
+              "RelativeToolTip": "FKRemoteDesktopClient\\Stealer\\Helper\\ChromiumBase.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAswD8AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T07:10:05.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ChromiumDecryptor.cs",
+              "DocumentMoniker": "D:\\Github\\OtherProjects\\FKRemoteDesktop\\FKRemoteDesktopClient\\Stealer\\Helper\\ChromiumDecryptor.cs",
+              "RelativeDocumentMoniker": "FKRemoteDesktopClient\\Stealer\\Helper\\ChromiumDecryptor.cs",
+              "ToolTip": "D:\\Github\\OtherProjects\\FKRemoteDesktop\\FKRemoteDesktopClient\\Stealer\\Helper\\ChromiumDecryptor.cs",
+              "RelativeToolTip": "FKRemoteDesktopClient\\Stealer\\Helper\\ChromiumDecryptor.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAiwCIAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T05:12:34.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "FKShellcode.cs",
+              "DocumentMoniker": "D:\\Github\\OtherProjects\\FKRemoteDesktop\\FKRemoteDesktopServer\\Builder\\FKShellcode.cs",
+              "RelativeDocumentMoniker": "FKRemoteDesktopServer\\Builder\\FKShellcode.cs",
+              "ToolTip": "D:\\Github\\OtherProjects\\FKRemoteDesktop\\FKRemoteDesktopServer\\Builder\\FKShellcode.cs",
+              "RelativeToolTip": "FKRemoteDesktopServer\\Builder\\FKShellcode.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAApwFcAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T09:45:39.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ServerConfig.cs",
+              "DocumentMoniker": "D:\\Github\\OtherProjects\\FKRemoteDesktop\\FKRemoteDesktopServer\\Configs\\ServerConfig.cs",
+              "RelativeDocumentMoniker": "FKRemoteDesktopServer\\Configs\\ServerConfig.cs",
+              "ToolTip": "D:\\Github\\OtherProjects\\FKRemoteDesktop\\FKRemoteDesktopServer\\Configs\\ServerConfig.cs",
+              "RelativeToolTip": "FKRemoteDesktopServer\\Configs\\ServerConfig.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAawGMAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T05:36:09.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "PasswordRecoveryForm.Designer.cs",
+              "DocumentMoniker": "D:\\Github\\OtherProjects\\FKRemoteDesktop\\FKRemoteDesktopServer\\Forms\\PasswordRecoveryForm.Designer.cs",
+              "RelativeDocumentMoniker": "FKRemoteDesktopServer\\Forms\\PasswordRecoveryForm.Designer.cs",
+              "ToolTip": "D:\\Github\\OtherProjects\\FKRemoteDesktop\\FKRemoteDesktopServer\\Forms\\PasswordRecoveryForm.Designer.cs",
+              "RelativeToolTip": "FKRemoteDesktopServer\\Forms\\PasswordRecoveryForm.Designer.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAawEgAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T05:36:02.155Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
