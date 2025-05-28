@@ -8,8 +8,6 @@
 
 # Build results
 
-[Dd]ebug/
-[Rr]elease/
 x64/
 [Oo]bj/
 
@@ -66,9 +64,6 @@ ipch/
 _ReSharper*/
 *.[Rr]e[Ss]harper
 *.DotSettings.user
-
-# Click-Once directory
-publish/
 
 # Publish Web Output
 *.Publish.xml
